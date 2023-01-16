@@ -1,3 +1,18 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://tpackard1.github.io/blog/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "m10c"
+
+[params]
+  author = "Taylor Packard"
+  description = "A blog about by tech journey."
+
+  [[params.social]]
+    icon = "github"
+    name = "GitHub"
+    url = "https://github.com/tpackard1"
+
+  [[params.social]]
+    icon = "email"
+    name = "Email"
+    url = "mailto:3.t.packard@gmail.com"
