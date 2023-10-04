@@ -1,7 +1,33 @@
-baseURL = "https://tpackard1.github.io/blog/"
+baseURL = "https://tpackard1.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Taylor Packard's Blog"
 theme = "m10c"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    post = "<i class='fa fa-heart'></i>"
+    url = "/posts/"
+    weight = 20
+    [menu.main.params]
+     class = 'highlight-menu-item'
+
+
+
+
+
 
 [params]
   author = "Taylor Packard"
@@ -13,6 +39,6 @@ theme = "m10c"
     url = "https://github.com/tpackard1"
 
   [[params.social]]
-    icon = "email"
+    icon = "mail"
     name = "Email"
     url = "mailto:3.t.packard@gmail.com"
