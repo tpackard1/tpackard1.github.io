@@ -1,30 +1,30 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><style>
 * { margin:0; padding:0; box-sizing:border-box; }
-html,body { width:100%; font-family:Helvetica,Arial,'Liberation Sans',sans-serif; color:#283544; -webkit-print-color-adjust:exact; }
+html,body { width:100%; font-family:Helvetica,Arial,'Liberation Sans',sans-serif; color:#1E3028; -webkit-print-color-adjust:exact; }
 .serif { font-family:Georgia,'Liberation Serif','Times New Roman',serif; }
 .band { width:100%; }
 .pad { padding:0 48px; }
 table { border-collapse:collapse; width:100%; }
 td { vertical-align:top; }
-.eyebrow { font-size:11px; font-weight:bold; letter-spacing:2px; color:#007AA8; text-transform:uppercase; }
+.eyebrow { font-size:11px; font-weight:bold; letter-spacing:2px; color:#3A8875; text-transform:uppercase; }
 
 /* Header + hero */
-.hero { background:#EFF5FA; padding:36px 48px 34px; }
-.iqbadge { display:inline-block; background:#173E6E; color:#fff; font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold;
+.hero { background:#E8F5EF; padding:36px 48px 34px; }
+.iqbadge { display:inline-block; background:#1B5C48; color:#fff; font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold;
   font-size:21px; padding:5px 10px; border-radius:7px; letter-spacing:1px; vertical-align:middle; }
-.iqword { display:inline-block; font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:25px; color:#173E6E;
+.iqword { display:inline-block; font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:25px; color:#1B5C48;
   vertical-align:middle; margin-left:7px; }
-.platform { font-size:10px; letter-spacing:3px; color:#5C6B7A; text-transform:uppercase; margin-top:7px; }
-h1 { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:31px; color:#173E6E; font-weight:bold; margin-top:22px; line-height:1.12; }
-.sub { font-size:14px; color:#283544; margin-top:11px; line-height:1.5; max-width:720px; }
+.platform { font-size:10px; letter-spacing:3px; color:#4A6B5C; text-transform:uppercase; margin-top:7px; }
+h1 { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:31px; color:#1B5C48; font-weight:bold; margin-top:22px; line-height:1.12; }
+.sub { font-size:14px; color:#1E3028; margin-top:11px; line-height:1.5; max-width:720px; }
 
 /* Stat band */
-.statband { background:#173E6E; }
+.statband { background:#1B5C48; }
 .statband td { padding:28px 26px; border-left:1px solid rgba(255,255,255,0.16); vertical-align:middle; }
 .statband td:first-child { border-left:none; }
 .statnum { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:33px; color:#fff; line-height:1; }
-.statnum .u { color:#08A6D4; }
-.statlbl { font-size:11.5px; color:#C7D7E8; margin-top:7px; line-height:1.32; }
+.statnum .u { color:#2EAA88; }
+.statlbl { font-size:11.5px; color:#A8D4C4; margin-top:7px; line-height:1.32; }
 
 /* sections */
 .section { padding:30px 48px 8px; }
@@ -34,38 +34,63 @@ h1 { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:3
 .pw td.step { border-radius:8px; padding:20px 8px 19px; text-align:center; vertical-align:middle; }
 .pw .num { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:27px; color:#fff; line-height:1; }
 .pw .slbl { font-size:12px; color:#fff; font-weight:bold; margin-top:5px; line-height:1.18; }
-.pw td.arrow { width:26px; text-align:center; color:#5C6B7A; font-size:24px; font-weight:bold; vertical-align:middle; }
+.pw td.arrow { width:26px; text-align:center; color:#4A6B5C; font-size:24px; font-weight:bold; vertical-align:middle; }
 
 /* what you get cards */
-.card { background:#F5F9FC; border:1px solid #DCE5EE; border-radius:9px; padding:20px 18px 22px; vertical-align:top; }
-.card .cn { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:22px; color:#08A6D4; line-height:1; }
-.card .ct { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:15.5px; color:#173E6E; margin:7px 0 7px; }
-.card .cd { font-size:12.5px; color:#283544; line-height:1.5; }
+.card { background:#F0F9F5; border:1px solid #C5E3D8; border-radius:9px; padding:20px 18px 22px; vertical-align:top; }
+.card .cn { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:22px; color:#2EAA88; line-height:1; }
+.card .ct { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:15.5px; color:#1B5C48; margin:7px 0 7px; }
+.card .cd { font-size:12.5px; color:#1E3028; line-height:1.5; }
 .gut { width:16px; }
 
 /* dark who/opportunity band */
-.darkband { background:#173E6E; padding:34px 48px; }
+.darkband { background:#1B5C48; padding:34px 48px; }
 .darkband h3 { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:18px; color:#fff; font-weight:bold; margin-bottom:12px; }
 .darkband td.left { padding-right:30px; border-right:1px solid rgba(255,255,255,0.18); vertical-align:top; }
 .darkband td.right { padding-left:30px; vertical-align:top; }
-.wlist div { font-size:13px; color:#E6EEF7; margin-bottom:12px; padding-left:16px; position:relative; line-height:1.35; }
-.wlist div:before { content:"\25AA"; color:#08A6D4; position:absolute; left:0; top:0; }
+.wlist div { font-size:13px; color:#D4EEE4; margin-bottom:12px; padding-left:16px; position:relative; line-height:1.35; }
+.wlist div:before { content:"\25AA"; color:#2EAA88; position:absolute; left:0; top:0; }
 .opp div { margin-bottom:16px; line-height:1.3; }
-.opp .b { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:16px; color:#08A6D4; }
-.opp .t { font-size:12.5px; color:#E6EEF7; }
+.opp .b { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:16px; color:#2EAA88; }
+.opp .t { font-size:12.5px; color:#D4EEE4; }
 
 /* why */
-.why td { padding:15px 0; border-top:1px solid #DCE5EE; }
+.why td { padding:15px 0; border-top:1px solid #C5E3D8; }
 .why tr:first-child td { border-top:none; }
-.why .wl { width:170px; font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:14px; color:#173E6E; padding-right:14px; }
-.why .wd { font-size:13px; color:#283544; line-height:1.45; }
+.why .wl { width:170px; font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:14px; color:#1B5C48; padding-right:14px; }
+.why .wd { font-size:13px; color:#1E3028; line-height:1.45; }
+
+/* demo videos */
+.videogrid td.vcell { width:50%; vertical-align:top; }
+.vlabel { font-size:11px; font-weight:bold; letter-spacing:1.5px; color:#2EAA88; text-transform:uppercase; margin-bottom:5px; }
+.vtitle { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:16px; color:#1B5C48; margin-bottom:11px; line-height:1.2; }
+.videowrap { max-width:100%; margin:0 auto; }
+.videowrap video { display:block; width:100%; max-width:560px; height:auto; border:1px solid #C5E3D8; border-radius:9px;
+  box-shadow:0 6px 18px rgba(27,92,72,0.14); background:#1B5C48; }
 
 /* footer */
-.footer td.cta { background:#173E6E; padding:26px 48px; width:62%; vertical-align:middle; }
-.footer td.pw2 { background:#EFF5FA; padding:26px 26px 26px 30px; vertical-align:middle; text-align:right; }
+.footer td.cta { background:#1B5C48; padding:26px 48px; width:62%; vertical-align:middle; }
+.footer td.pw2 { background:#E8F5EF; padding:26px 26px 26px 30px; vertical-align:middle; text-align:right; }
 .footer .gh { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:20px; color:#fff; }
-.footer .gc { font-size:12px; color:#C7D7E8; margin-top:5px; }
-.footer .pl { font-size:10px; letter-spacing:1px; color:#5C6B7A; text-transform:uppercase; margin-bottom:6px; }
+.footer .gc { font-size:12px; color:#A8D4C4; margin-top:5px; }
+.footer .pl { font-size:10px; letter-spacing:1px; color:#4A6B5C; text-transform:uppercase; margin-bottom:6px; }
+
+/* contact form */
+.contact-h { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:24px; color:#1B5C48; font-weight:bold; margin-top:6px; }
+.contact-intro { font-size:14px; color:#1E3028; margin-top:6px; margin-bottom:18px; }
+.contact-form { max-width:680px; margin:0; }
+.contact-form .fg { margin-bottom:14px; }
+.contact-form label { font-size:12px; font-weight:bold; color:#1B5C48; margin-bottom:5px; display:block; }
+.contact-form input, .contact-form textarea {
+  width:100%; padding:10px 14px; border:1px solid #C5E3D8; border-radius:7px; font-size:13px; color:#1E3028;
+  background:#F0F9F5; font-family:Helvetica,Arial,'Liberation Sans',sans-serif; transition:border-color 0.15s, box-shadow 0.15s; }
+.contact-form input:focus, .contact-form textarea:focus {
+  border-color:#2EAA88; outline:none; box-shadow:0 0 0 3px rgba(46,170,136,0.15); }
+.contact-form textarea { resize:vertical; }
+.contact-form .submit-btn {
+  background:#1B5C48; color:#fff; padding:11px 32px; border:none; border-radius:7px; font-size:14px; font-weight:bold;
+  cursor:pointer; transition:background 0.15s; }
+.contact-form .submit-btn:hover { background:#2EAA88; }
 </style></head><body>
 
 <div class="band hero">
@@ -84,13 +109,13 @@ h1 { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:3
 <div class="section">
   <div class="eyebrow sec-h">How it works</div>
   <table class="pw"><tr>
-    <td class="step" style="background:#163A63"><div class="num">1</div><div class="slbl">Enter<br>Client Data</div></td>
+    <td class="step" style="background:#1A4535"><div class="num">1</div><div class="slbl">Enter<br>Client Data</div></td>
     <td class="arrow">&#8250;</td>
-    <td class="step" style="background:#155F8A"><div class="num">2</div><div class="slbl">Design<br>the Plan</div></td>
+    <td class="step" style="background:#1E6B50"><div class="num">2</div><div class="slbl">Design<br>the Plan</div></td>
     <td class="arrow">&#8250;</td>
-    <td class="step" style="background:#0E83AE"><div class="num">3</div><div class="slbl">Review<br>Results</div></td>
+    <td class="step" style="background:#2A8B6E"><div class="num">3</div><div class="slbl">Review<br>Results</div></td>
     <td class="arrow">&#8250;</td>
-    <td class="step" style="background:#08A6D4"><div class="num">4</div><div class="slbl">Generate<br>Proposal</div></td>
+    <td class="step" style="background:#3EAA88"><div class="num">4</div><div class="slbl">Generate<br>Proposal</div></td>
   </tr></table>
 </div>
 
@@ -102,6 +127,33 @@ h1 { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:3
     <td class="card"><div class="cn">02</div><div class="ct serif">Actuarial Results</div><div class="cd">Owner-by-owner breakdown: contributions, tax savings, staff cost, and compliance status, all in one view.</div></td>
     <td class="gut"></td>
     <td class="card"><div class="cn">03</div><div class="ct serif">Client Proposal</div><div class="cd">Branded, print-ready PDF in one click. Fee schedule, 5-year projection, and full plan summary included.</div></td>
+  </tr></table>
+</div>
+
+<div class="section">
+  <div class="eyebrow sec-h">See it in action</div>
+  <table class="videogrid"><tr>
+    <td class="vcell">
+      <div class="vlabel">Getting started</div>
+      <div class="vtitle serif">Logging in</div>
+      <div class="videowrap">
+        <video controls preload="metadata">
+          <source src="IQPension%20LogIn.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="IQPension%20LogIn.mp4">Download the login video</a>.
+        </video>
+      </div>
+    </td>
+    <td class="gut"></td>
+    <td class="vcell">
+      <div class="vlabel">Full demo</div>
+      <div class="vtitle serif">Platform walkthrough</div>
+      <div class="videowrap">
+        <video controls preload="metadata">
+          <source src="IQPension_Walkthrough.mp4" type="video/mp4">
+          Your browser does not support embedded video. <a href="IQPension_Walkthrough.mp4">Download the walkthrough video</a>.
+        </video>
+      </div>
+    </td>
   </tr></table>
 </div>
 
@@ -133,6 +185,43 @@ h1 { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:3
     <tr><td class="wl serif">End-to-end</td><td class="wd">From census entry to plan design to a print-ready proposal. One platform, no back-and-forth, no waiting weeks.</td></tr>
     <tr><td class="wl serif">Calculation-certain</td><td class="wd">32+ unit tests verify parity with IRS regulations, so you can trust every number.</td></tr>
   </table>
+</div>
+
+<div class="section">
+  <div class="eyebrow sec-h">Contact Us</div>
+  <div class="contact-h serif">Get in touch</div>
+  <div class="contact-intro">Interested in IQPension? We'd love to hear from you.</div>
+  <form class="contact-form" action="https://formspree.io/f/info@iqpension.com" method="POST">
+    <input type="hidden" name="_subject" value="IQPension Contact Form Submission">
+    <table><tr>
+      <td>
+        <div class="fg">
+          <label for="cf-first">First Name</label>
+          <input type="text" id="cf-first" name="First Name" required>
+        </div>
+      </td>
+      <td class="gut"></td>
+      <td>
+        <div class="fg">
+          <label for="cf-last">Last Name</label>
+          <input type="text" id="cf-last" name="Last Name" required>
+        </div>
+      </td>
+    </tr></table>
+    <div class="fg">
+      <label for="cf-org">Organization</label>
+      <input type="text" id="cf-org" name="Organization">
+    </div>
+    <div class="fg">
+      <label for="cf-email">Email</label>
+      <input type="email" id="cf-email" name="_replyto" required>
+    </div>
+    <div class="fg">
+      <label for="cf-message">Message</label>
+      <textarea id="cf-message" name="Message" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
 </div>
 
 <div class="band footer"><table><tr>
