@@ -1,0 +1,143 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+* { margin:0; padding:0; box-sizing:border-box; }
+html,body { width:100%; font-family:Helvetica,Arial,'Liberation Sans',sans-serif; color:#283544; -webkit-print-color-adjust:exact; }
+.serif { font-family:Georgia,'Liberation Serif','Times New Roman',serif; }
+.band { width:100%; }
+.pad { padding:0 48px; }
+table { border-collapse:collapse; width:100%; }
+td { vertical-align:top; }
+.eyebrow { font-size:11px; font-weight:bold; letter-spacing:2px; color:#007AA8; text-transform:uppercase; }
+
+/* Header + hero */
+.hero { background:#EFF5FA; padding:36px 48px 34px; }
+.iqbadge { display:inline-block; background:#173E6E; color:#fff; font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold;
+  font-size:21px; padding:5px 10px; border-radius:7px; letter-spacing:1px; vertical-align:middle; }
+.iqword { display:inline-block; font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:25px; color:#173E6E;
+  vertical-align:middle; margin-left:7px; }
+.platform { font-size:10px; letter-spacing:3px; color:#5C6B7A; text-transform:uppercase; margin-top:7px; }
+h1 { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:31px; color:#173E6E; font-weight:bold; margin-top:22px; line-height:1.12; }
+.sub { font-size:14px; color:#283544; margin-top:11px; line-height:1.5; max-width:720px; }
+
+/* Stat band */
+.statband { background:#173E6E; }
+.statband td { padding:28px 26px; border-left:1px solid rgba(255,255,255,0.16); vertical-align:middle; }
+.statband td:first-child { border-left:none; }
+.statnum { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:33px; color:#fff; line-height:1; }
+.statnum .u { color:#08A6D4; }
+.statlbl { font-size:11.5px; color:#C7D7E8; margin-top:7px; line-height:1.32; }
+
+/* sections */
+.section { padding:30px 48px 8px; }
+.sec-h { margin-bottom:18px; }
+
+/* pathway */
+.pw td.step { border-radius:8px; padding:20px 8px 19px; text-align:center; vertical-align:middle; }
+.pw .num { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:27px; color:#fff; line-height:1; }
+.pw .slbl { font-size:12px; color:#fff; font-weight:bold; margin-top:5px; line-height:1.18; }
+.pw td.arrow { width:26px; text-align:center; color:#5C6B7A; font-size:24px; font-weight:bold; vertical-align:middle; }
+
+/* what you get cards */
+.card { background:#F5F9FC; border:1px solid #DCE5EE; border-radius:9px; padding:20px 18px 22px; vertical-align:top; }
+.card .cn { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:22px; color:#08A6D4; line-height:1; }
+.card .ct { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:15.5px; color:#173E6E; margin:7px 0 7px; }
+.card .cd { font-size:12.5px; color:#283544; line-height:1.5; }
+.gut { width:16px; }
+
+/* dark who/opportunity band */
+.darkband { background:#173E6E; padding:34px 48px; }
+.darkband h3 { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:18px; color:#fff; font-weight:bold; margin-bottom:12px; }
+.darkband td.left { padding-right:30px; border-right:1px solid rgba(255,255,255,0.18); vertical-align:top; }
+.darkband td.right { padding-left:30px; vertical-align:top; }
+.wlist div { font-size:13px; color:#E6EEF7; margin-bottom:12px; padding-left:16px; position:relative; line-height:1.35; }
+.wlist div:before { content:"\25AA"; color:#08A6D4; position:absolute; left:0; top:0; }
+.opp div { margin-bottom:16px; line-height:1.3; }
+.opp .b { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:16px; color:#08A6D4; }
+.opp .t { font-size:12.5px; color:#E6EEF7; }
+
+/* why */
+.why td { padding:15px 0; border-top:1px solid #DCE5EE; }
+.why tr:first-child td { border-top:none; }
+.why .wl { width:170px; font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:14px; color:#173E6E; padding-right:14px; }
+.why .wd { font-size:13px; color:#283544; line-height:1.45; }
+
+/* footer */
+.footer td.cta { background:#173E6E; padding:26px 48px; width:62%; vertical-align:middle; }
+.footer td.pw2 { background:#EFF5FA; padding:26px 26px 26px 30px; vertical-align:middle; text-align:right; }
+.footer .gh { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:20px; color:#fff; }
+.footer .gc { font-size:12px; color:#C7D7E8; margin-top:5px; }
+.footer .pl { font-size:10px; letter-spacing:1px; color:#5C6B7A; text-transform:uppercase; margin-bottom:6px; }
+</style></head><body>
+
+<div class="band hero">
+  <span class="iqbadge">IQ</span><span class="iqword">Pension</span>
+  <div class="platform">Advisor Platform</div>
+  <h1 class="serif">Pension plan valuations, built for financial advisors.</h1>
+  <div class="sub">IQPension combines 401(k) and Cash Balance plan design with real actuarial calculations, so advisors can model, present, and deliver pension plans for business owner clients in minutes.</div>
+</div>
+
+<div class="band statband"><table><tr>
+  <td><div class="statnum">$300K<span class="u">+</span></div><div class="statlbl">Annual contribution potential for qualifying owners</div></td>
+  <td><div class="statnum">40%<span class="u">+</span></div><div class="statlbl">Effective tax deduction for most business owners</div></td>
+  <td><div class="statnum">Minutes</div><div class="statlbl">Census to a branded, print-ready client proposal</div></td>
+</tr></table></div>
+
+<div class="section">
+  <div class="eyebrow sec-h">How it works</div>
+  <table class="pw"><tr>
+    <td class="step" style="background:#163A63"><div class="num">1</div><div class="slbl">Enter<br>Client Data</div></td>
+    <td class="arrow">&#8250;</td>
+    <td class="step" style="background:#155F8A"><div class="num">2</div><div class="slbl">Design<br>the Plan</div></td>
+    <td class="arrow">&#8250;</td>
+    <td class="step" style="background:#0E83AE"><div class="num">3</div><div class="slbl">Review<br>Results</div></td>
+    <td class="arrow">&#8250;</td>
+    <td class="step" style="background:#08A6D4"><div class="num">4</div><div class="slbl">Generate<br>Proposal</div></td>
+  </tr></table>
+</div>
+
+<div class="section">
+  <div class="eyebrow sec-h">What you get</div>
+  <table><tr>
+    <td class="card"><div class="cn">01</div><div class="ct serif">Plan Design</div><div class="cd">Live contribution sliders for DC Only, DC + Cash Balance, or Traditional DB. Numbers and compliance status update in real time.</div></td>
+    <td class="gut"></td>
+    <td class="card"><div class="cn">02</div><div class="ct serif">Actuarial Results</div><div class="cd">Owner-by-owner breakdown: contributions, tax savings, staff cost, and compliance status, all in one view.</div></td>
+    <td class="gut"></td>
+    <td class="card"><div class="cn">03</div><div class="ct serif">Client Proposal</div><div class="cd">Branded, print-ready PDF in one click. Fee schedule, 5-year projection, and full plan summary included.</div></td>
+  </tr></table>
+</div>
+
+<div class="band darkband"><table><tr>
+  <td class="left" style="width:50%">
+    <h3 class="serif">Who is it for?</h3>
+    <div class="wlist">
+      <div>Independent RIAs, CPAs &amp; tax-forward advisors</div>
+      <div>Advisors offering 401(k) + Cash Balance without an actuarial background</div>
+      <div>Those advising business owners on tax-deferred retirement strategy</div>
+      <div>Anyone who needs real-time numbers for confident owner conversations</div>
+    </div>
+  </td>
+  <td class="right" style="width:50%">
+    <h3 class="serif">The opportunity</h3>
+    <div class="opp">
+      <div><span class="b">&lt; 5%</span> <span class="t">of advisors have actuarial training</span></div>
+      <div><span class="b">20,000+</span> <span class="t">active cash balance plans, the fastest-growing plan type</span></div>
+      <div><span class="b">$0</span> <span class="t">net cost in Year 1 after SECURE 2.0 credits</span></div>
+    </div>
+  </td>
+</tr></table></div>
+
+<div class="section">
+  <div class="eyebrow sec-h">Why IQPension</div>
+  <table class="why">
+    <tr><td class="wl serif">Advisor-first</td><td class="wd">No actuarial background needed. IQPension handles the actuarial math rigorously, and you handle the client relationship.</td></tr>
+    <tr><td class="wl serif">Actuary-backed</td><td class="wd">Every plan is reviewed by the Optimizing Foundations actuarial team before it reaches the client: rigorous, professional, reliable.</td></tr>
+    <tr><td class="wl serif">End-to-end</td><td class="wd">From census entry to plan design to a print-ready proposal. One platform, no back-and-forth, no waiting weeks.</td></tr>
+    <tr><td class="wl serif">Calculation-certain</td><td class="wd">32+ unit tests verify parity with IRS regulations, so you can trust every number.</td></tr>
+  </table>
+</div>
+
+<div class="band footer"><table><tr>
+  <td class="cta"><div class="gh serif">Get started today</div><div class="gc">app.iqpension.com&nbsp;&nbsp;&#183;&nbsp;&nbsp;noor.rajah@optimizingfoundations.com</div></td>
+  <td class="pw2"><div class="pl">Powered by</div><img src="data:image/png;base64,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" style="height:30px;"></td>
+</tr></table></div>
+
+</body></html>
