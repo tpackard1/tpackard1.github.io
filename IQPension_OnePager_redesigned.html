@@ -60,13 +60,14 @@ h1 { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:3
 .why .wl { width:170px; font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:14px; color:#1B5C48; padding-right:14px; }
 .why .wd { font-size:13px; color:#1E3028; line-height:1.45; }
 
+
 /* demo videos */
 .videogrid td.vcell { width:50%; vertical-align:top; }
 .vlabel { font-size:11px; font-weight:bold; letter-spacing:1.5px; color:#2EAA88; text-transform:uppercase; margin-bottom:5px; }
 .vtitle { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-weight:bold; font-size:16px; color:#1B5C48; margin-bottom:11px; line-height:1.2; }
-.videowrap { max-width:100%; margin:0 auto; }
-.videowrap video { display:block; width:100%; max-width:560px; height:auto; border:1px solid #C5E3D8; border-radius:9px;
+.videowrap { position:relative; width:100%; padding-bottom:56.25%; border:1px solid #C5E3D8; border-radius:9px; overflow:hidden;
   box-shadow:0 6px 18px rgba(27,92,72,0.14); background:#1B5C48; }
+.videowrap iframe { position:absolute; top:0; left:0; width:100%; height:100%; border:0; border-radius:9px; }
 
 /* footer */
 .footer td.cta { background:#1B5C48; padding:26px 48px; width:62%; vertical-align:middle; }
@@ -130,6 +131,7 @@ h1 { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:3
   </tr></table>
 </div>
 
+
 <div class="section">
   <div class="eyebrow sec-h">See it in action</div>
   <table class="videogrid"><tr>
@@ -137,10 +139,7 @@ h1 { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:3
       <div class="vlabel">Getting started</div>
       <div class="vtitle serif">Logging in</div>
       <div class="videowrap">
-        <video controls preload="metadata">
-          <source src="IQPension%20LogIn.mp4" type="video/mp4">
-          Your browser does not support embedded video. <a href="IQPension%20LogIn.mp4">Download the login video</a>.
-        </video>
+        <iframe src="https://www.youtube.com/embed/XIcx5-gqVM4?si=-TFbPvcG1MKsRUi1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </td>
     <td class="gut"></td>
@@ -148,10 +147,7 @@ h1 { font-family:Georgia,'Liberation Serif','Times New Roman',serif; font-size:3
       <div class="vlabel">Full demo</div>
       <div class="vtitle serif">Platform walkthrough</div>
       <div class="videowrap">
-        <video controls preload="metadata">
-          <source src="IQPension_Walkthrough.mp4" type="video/mp4">
-          Your browser does not support embedded video. <a href="IQPension_Walkthrough.mp4">Download the walkthrough video</a>.
-        </video>
+        <iframe src="https://www.youtube.com/embed/RzjbwO3dvP0?si=-8W2ExWMtFHwA-Iy" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </td>
   </tr></table>
